@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 1</title>
+  <meta name="description" content="HTML exercise 1">
+</head>
+
+<body>
+  <header>
+    <a href="../../">Back to Home</a>
+    <h1 contenteditable="true">Bug list</h1>
+    <nav>
+      <ul>
+        <li draggable="true"><a href="#ladybug">Ladybug</a></li>
+        <li><a href="#isopod">Isopod</a></li>
+        <li><a href="#butterfly">Butterfly</a></li>
+      </ul>
+    </nav>
+    <div>
+      <img src="images/ferd.png" alt="image of a 3D model of a plush frog">
+      <br><p>^ This is Ferdinand.</p>
+    </div>
+  </header>
+  <main>
+    <section id="ladybug">
+      <h2>LADYBUG</h2>
+      <img src="images/ladybug.jpg" alt="image of a ladybug on a stalk of wheat"><br>
+      <input type="range" id="lb-rate" name="lb-rate" min="0" max="10"/>
+      <label for="lb-rate">Rate this bug!</label>
+      <br>
+      <details>
+        <summary>open for a fun fact!</summary>
+        <p>Ladybugs are not just bugs, they are classified as beetles!</p>
+      </details>
+    </section>
+    <section id="isopod">
+      <h2>ISOPOD</h2>
+      <img src="images/isopod.jpg" alt="image of a woodlouse on white concrete"><br>
+      <input type="range" id="is-rate" name="is-rate" min="0" max="10"/>
+      <label for="is-rate">Rate this bug!</label>
+      <br>
+      <details>
+        <summary>open for a fun fact!</summary>
+        <p>Isopods (roly-polies) are not insects, but are actually crustaceans! The land isopod has a giant sea dwelling cousin the size of a human head!</p>
+      </details>
+    </section>
+    <section id="butterfly">
+      <h2>BUTTERFLY</h2>
+      <img src="images/butterfly.jpg" alt="image of a scarlet mormon butterfly on some pink flowers"><br>
+      <input type="range" id="bf-rate" name="bf-rate" min="0" max="10"/>
+      <label for="bf-rate">Rate this bug!</label>
+      <br>
+      <details>
+        <summary>open for a fun fact!</summary>
+        <p>Butterflies group together in what is called "mud-puddling" or just "puddling"! This happens when multiple butterflies gather around fluid nutrients.</p>
+      </details>
+    </section>
+    <section>
+      <h2>How do these critters make you feel?</h2>
+      <textarea id="user-thoughts" rows="20" columns="20">Let me know your thoughts...</textarea>
+    </section>
+  </main>
+  <footer>
+    images taken from Pixabay
+  </footer>
+</body>
+
+</html>
