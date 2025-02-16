@@ -1,0 +1,79 @@
+/*
+COLOR PALETTE
+
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #edeceb
+
+Kabul         #5b443e
+Dark Kabul    #29211f
+Chesnut Rose  #cd6858
+Celeste       #cecfcd
+Tan           #cfa987
+
+*/
+
+/* GLOBAL STYLES
+------------------------------------------*/
+body {
+  background: #edeceb;
+}
+
+/* link styles */
+a {
+  color: #cd6858;
+}
+
+a:hover {
+  color: #cfa987;
+  text-decoration: none;
+}
+
+.btn {
+  background: #cd6858;
+  color: #edeceb;
+  text-decoration: none;
+}
+
+
+/* HOME
+------------------------------------------*/
+.home {
+  background: url(../images/bg-home-office-bookshelf.jpg) no-repeat;
+  background-size: cover;
+}
+
+.home .content-wrapper {
+  background: rgb(255 255 255 / 0.9);
+}
+
+/* RESUME
+------------------------------------------*/
+
+/* Profile
+------------------------------------------*/
+
+/* Projects
+------------------------------------------*/
+
+/* Work Experience
+------------------------------------------*/
+
+/* Education
+------------------------------------------*/
+
+/* FOOTER
+------------------------------------------*/
+
+footer {
+  background: #29211f;
+  color: #d3d4d6;
+}
+
+footer a{
+  color: #cfa987;
+}
+
+footer a:hover {
+  color: #cd6858;
+}
