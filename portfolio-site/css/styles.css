@@ -1,0 +1,119 @@
+/*
+COLOR PALETTE
+
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #edeceb
+
+Kabul         #5b443e
+Dark Kabul    #29211f
+Chesnut Rose  #cd6858
+Celeste       #cecfcd
+Tan           #cfa987
+
+*/
+
+/* GLOBAL STYLES
+------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #edeceb;
+}
+
+/* link styles */
+a {
+  color: #cd6858;
+}
+
+a:hover {
+  color: #cfa987;
+  text-decoration: none;
+}
+
+.btn {
+  background: #cd6858;
+  color: #edeceb;
+  text-decoration: none;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 900px;
+}
+
+
+/* HOME
+------------------------------------------*/
+.home {
+  background: url(../images/bg-beam-of-light-1920.jpg) no-repeat;
+  background-size: cover;
+}
+
+.home .content-wrapper {
+  background: rgb(255 255 255 / 0.9);
+}
+
+/* RESUME
+------------------------------------------*/
+
+.resume header::before {
+  background: url(../images/bg-moss-1920.jpg) center;
+  background-size: cover;
+  content: "";
+  display: block;
+  height: 375px;
+}
+
+/* Profile
+------------------------------------------*/
+
+/* Projects
+------------------------------------------*/
+
+/* Work Experience
+------------------------------------------*/
+
+/* Education
+------------------------------------------*/
+
+/* FOOTER
+------------------------------------------*/
+
+footer {
+  background: #29211f;
+  color: #d3d4d6;
+}
+
+footer a{
+  color: #cfa987;
+}
+
+footer a:hover {
+  color: #cd6858;
+}
+
+.socials {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline-block;
+}
+
+.socials img {
+  width: 32px;
+}
