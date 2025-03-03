@@ -51,9 +51,9 @@ p {
   margin-top: 20px;
 }
 
-/* .image-div {
+.image-div {
   display: inline-block;
-} */
+}
 
 .image-grid-container {
   display: flex;
